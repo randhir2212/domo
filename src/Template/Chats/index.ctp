@@ -1,3 +1,4 @@
+
 <script src="<?php echo $this->Url->build('/', TRUE); ?>assets/global/plugins/angularjs/angular.min.js" type="text/javascript"></script>
 <div ng-app="myApp" ng-controller="Chats">
 	<div class="page-sidebar-wrapper">
@@ -57,13 +58,15 @@
 var app = angular.module('myApp', []);
 app.controller('Chats', function($scope, $location, $http) {
 	console.log($location.absUrl());
-    var getChatList = function () {
-		// $http.get(url+'chats/chats').then(function (response) {
-		//     $scope.myWelcome = response.data;
-		// });
+    var getJobList = function () {
+		$http.get('http://localhost/QuickFix/Chats/jobs.json').then(function (response) {
+		    $scope.jobsList = response.data;
+		});
 		console.log("Randhir");
     };
 
-	getChatList();
+	getJobList();
+
+
 });
 </script>

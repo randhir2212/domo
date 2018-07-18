@@ -21,7 +21,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
     <head>
         <meta charset="utf-8" />
-        <title>Metronic Admin Theme #6 | User Login 1</title>
+        <title>Quick Fix</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta content="Preview page of Metronic Admin Theme #6 for " name="description" />
@@ -68,10 +68,10 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="form-group">
                     <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                     <label class="control-label visible-ie8 visible-ie9">Username</label>
-                    <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="email" id="email" /> </div>
+                    <input class="form-control form-control-solid placeholder-no-fix" type="text" value="randhirjha@yopmail.com" autocomplete="off" placeholder="Username" name="email" id="email" /> </div>
                 <div class="form-group">
                     <label class="control-label visible-ie8 visible-ie9">Password</label>
-                    <input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password" id="password" /> </div>
+                    <input class="form-control form-control-solid placeholder-no-fix" type="password" value="Randhir2@" autocomplete="off" placeholder="Password" name="password" id="password" /> </div>
                 <div class="form-actions">
                     <button type="submit" class="btn green uppercase">Login</button>
                     <label class="rememberme check mt-checkbox mt-checkbox-outline">
